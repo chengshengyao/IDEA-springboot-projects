@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>map集合循环遍历【k，v】</h4>
+<!--            1.昵称    2.状态    3.循环遍历对象-->
+<div th:each="userMap,userMapStat:${userMaps}">
+    <span th:text="userMapStat.count">计数</span>
+    <span th:text="userMapStat.index">下标</span>
+    <span th:text="userMap.key">key</span>
+    <span th:text="userMap.value">value[用户对象]</span>
+    <span th:text="userMaps.value.id">用户编号</span>
+    <span th:text="userMaps.value.nick">用户昵称</span>
+    <span th:text="userMaps.value.phone">联系方式</span>
+    <span th:text="userMaps.value.id">住址</span>
+</div>
+
+</body>
+</html>

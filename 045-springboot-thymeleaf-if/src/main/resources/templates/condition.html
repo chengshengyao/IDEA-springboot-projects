@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>条件判断</title>
+</head>
+<body>
+<h2>th:if 用法若满足条件，显示！</h2>
+<div th:if="${sex eq 1}">满足条件【男】</div>
+<div th:if="${sex eq 0}">不满足条件【女】</div>
+<h2>th:unless【除非】 用法若满足条件，显示！</h2>
+<div th:unless="${sex ne 1}">满足条件【女】</div>
+<div th:unless="${sex ne 0}">不满足条件【男】</div>
+</body>
+<h2>th:switch th:case</h2>
+<div th:switch="${productType}">
+    产品类型如下：
+    <div th:case="0">面条</div>
+    <div th:case="1">米饭</div>
+    <div th:case="2">西北风</div>
+    <div th:case="*">无此产品</div>
+
+</div>
+
+</html>

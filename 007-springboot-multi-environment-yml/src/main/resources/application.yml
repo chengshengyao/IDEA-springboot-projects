@@ -1,0 +1,4 @@
+#╨кпдеДжцнд╪Ч
+spring:
+  profiles:
+    active: text

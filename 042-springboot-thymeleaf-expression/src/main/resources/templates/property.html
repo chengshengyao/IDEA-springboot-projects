@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>常见属性</title>
+    <script type="text/javascript" th:src="@{/js/jquery-3.4.1.js}"></script>
+</head>
+<body>
+<form method="get" action="http://localhost:8080/test1">
+    用户编号： <input type="text" name="id"><br>
+    用户姓名： <input type="text" name="username"><br>
+    用户年龄： <input type="text" name="age">
+    <input type="submit" value="提交">
+</form>
+<h2>使用th：标签的属性的方式</h2>
+<form method="get" th:action="@{/test1}">
+    用户编号： <input type="text" th:id="id" th:name="id"><br>
+    用户姓名： <input type="text" th:id="username" th:name="username"><br>
+    用户年龄： <input type="text" th:id="age" th:name="age">
+    <input type="submit" value="提交">
+</form>
+<script type="text/javascript">
+    function test() {
+        alert("-------")
+    }
+</script>
+<button th:onclick="test()">提交</button>
+</body>
+</html>

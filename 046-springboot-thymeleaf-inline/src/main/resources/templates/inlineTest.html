@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>内敛表达式</title>
+</head>
+<body th:inline="test">
+<div th:test="${data}">----</div>
+<h4>内敛表达式 无需依托于html标签,官方：内敛文本必须写在div标签内部</h4>
+<div th:inline="test">
+    数据：[[${data}]]
+</div>
+<h2>内敛脚本</h2>
+<div th:inline="javascript">内敛脚本用于script脚本标签</div>
+<script type="text/javascript" th:inline="javascript">
+    function showData() {
+        alert([[${data}]]);
+    }
+</script>
+<button th:onclick="showData()">展示数据</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--maven的模型版本-->
+    <modelVersion>4.0.0</modelVersion>
+    <!--maven多模块管理 父工程项-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <!--自定义子项目G.A.V坐标-->
+    <groupId>com.bjpowernode.springboot</groupId>
+    <artifactId>001-springboot-first</artifactId>
+    <version>1.0.0</version>
+    <!--自定义项目名及描述-->
+    <name>001-springboot-first</name>
+    <description>Demo project for Spring Boot</description>
+    <!--属性-->
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <!--依赖项-->
+    <dependencies>
+        <!--springboot起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--springboot起步测试依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>

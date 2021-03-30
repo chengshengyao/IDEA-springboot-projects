@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf 循环遍历复杂集合</title>
+</head>
+<body>
+<h4>list map list user</h4>
+  <div th:each="myListMap:${myList}">
+    <div th:each="myListMapObj:${myListMap}">
+        Map集合的key<span th:text="${myListMapObj.key}"></span>
+        <div th:each="myListMapObjList:${myListMapObj.value}">
+            用户编号：<span th:test="${myListMapObjList.id}"></span>
+            用户昵称：<span th:test="${myListMapObjList.nick}"></span>
+            用户地址：<span th:test="${myListMapObjList.address}"></span>
+            联系方式：<span th:test="${myListMapObjList.phone}"></span>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

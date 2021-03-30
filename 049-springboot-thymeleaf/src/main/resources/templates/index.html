@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>基本对象表达式对象</title>
+</head>
+<body>
+<h2>从session中获取值</h2>
+<span th:text="${#session.getAttribute('data')}"></span>
+<span th:text="${#httpSession.getAttribute('data')}"></span>
+<span th:text="${session.data}"></span>
+<script type="text/javascript" th:inline="javascript">
+    //获取协议
+    var scheme = [[${request.getScheme()}]];
+    alert(scheme)
+    //获取服务器名称
+    var serverName = [[${request.gerServerName()}]];
+    alert(serverName)
+    //获取端口号
+    var serverPort = [[${request.gerServerPort()}]];
+    alert(serverPort)
+    //获取上下文根
+     var contextPath = [[${request.getContextPath()}]];
+    alert(contextPath)
+    //拼接全路径
+    alert(scheme+"://"+serverName+":"+serverPort+contextPath)
+    //获取全路径
+    var requestURL = [[${#httpServletRequest.requestURL}]];
+    var queryString = [[${#httpServletRequest.queryString}]];
+    var requestAddress = requestURL+"?"+queryString; //带参数全路径
+</script>
+</body>
+</html>

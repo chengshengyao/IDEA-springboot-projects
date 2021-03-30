@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf数学运算</title>
+</head>
+<body>
+<h2>三元运算符</h2>
+<div th:text="${sex eq 1 ? 'man':'woman'}"></div>
+<h2>算数运算符</h2>
+9+9=？：<div th:text=9+9></div>
+9-9=？：<div th:text=9-9></div>
+9*9=？：<div th:text=9*9></div>
+9/9=？：<div th:text=9/9></div>
+<h2>比较运算符</h2>
+8>5?<span th:if="8 gt 5">true</span> <br>
+8<5?<span th:unless="8 lt 5">false</span> <br>
+1>=1?<span th:if="1 ge 1">true</span> <br>
+<h2>相等判断</h2>
+<span th:if="${sex eq 1}">男</span>
+<span th:unless="${sex ne 1}">女</span>
+
+</body>
+</html>

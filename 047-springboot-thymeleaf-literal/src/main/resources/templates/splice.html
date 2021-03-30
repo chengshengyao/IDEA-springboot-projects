@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串拼接</title>
+</head>
+<body>
+<span> 共120页12页，当前第1页 首页 上一页 下一页 尾页</span>
+<span th:text="'共'+${totalRows}+'条'+${totalPage}+'页,当前第'+${currentPage}+'页  首页 上一页 下一页 尾页'"></span>
+<span th:text="|共${totalRows}页${totalPage}页 当前第${currentPage}页 首页 上一页 下一页 尾页|"></span>
+</body>
+</html>
