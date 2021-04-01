@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../tools/maven_work/maven-repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210401.151029-374.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../tools/maven_work/maven-repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210401.151029-374-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../tools/maven_work/maven-repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210401.151029-374-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

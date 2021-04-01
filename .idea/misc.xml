@@ -2,6 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/037-springboot-war" />
+    <file type="web" url="file://$PROJECT_DIR$/053-springboot-dubbo-ssm-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/054-springboot-dubbo-ssm-consumer" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -54,6 +56,10 @@
         <option value="$PROJECT_DIR$/048-springboot-thymeleaf-operation/pom.xml" />
         <option value="$PROJECT_DIR$/049-springboot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/050-springboot-thymeleaf-function/pom.xml" />
+        <option value="$PROJECT_DIR$/050-springboot-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/051-springboot-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/053-springboot-dubbo-ssm-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/054-springboot-dubbo-ssm-consumer/pom.xml" />
       </list>
     </option>
   </component>

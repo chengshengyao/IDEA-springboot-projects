@@ -50,6 +50,10 @@
       <module fileurl="file://$PROJECT_DIR$/048-springboot-thymeleaf-operation/048-springboot-thymeleaf-operation.iml" filepath="$PROJECT_DIR$/048-springboot-thymeleaf-operation/048-springboot-thymeleaf-operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/049-springboot-thymeleaf/049-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/049-springboot-thymeleaf/049-springboot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/050-springboot-thymeleaf-function/050-springboot-thymeleaf-function.iml" filepath="$PROJECT_DIR$/050-springboot-thymeleaf-function/050-springboot-thymeleaf-function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/051-springboot-parent/051-springboot-parent.iml" filepath="$PROJECT_DIR$/051-springboot-parent/051-springboot-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/052-springboot-dubbo-ssm-interface/052-springboot-dubbo-ssm-interface.iml" filepath="$PROJECT_DIR$/052-springboot-dubbo-ssm-interface/052-springboot-dubbo-ssm-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/053-springboot-dubbo-ssm-provider/053-springboot-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/053-springboot-dubbo-ssm-provider/053-springboot-dubbo-ssm-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/054-springboot-dubbo-ssm-consumer/054-springboot-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/054-springboot-dubbo-ssm-consumer/054-springboot-dubbo-ssm-consumer.iml" />
     </modules>
   </component>
 </project>

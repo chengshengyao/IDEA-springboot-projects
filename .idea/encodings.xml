@@ -81,5 +81,8 @@
     <file url="file://$PROJECT_DIR$/049-springboot-thymeleaf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/050-springboot-thymeleaf-function/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/050-springboot-thymeleaf-function/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/052-springboot-dubbo-ssm-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/053-springboot-dubbo-ssm-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/054-springboot-dubbo-ssm-consumer/src/main/java" charset="UTF-8" />
   </component>
 </project>

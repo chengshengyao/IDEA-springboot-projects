@@ -10,50 +10,53 @@
         <module name="015-springboot-mybatis-4" />
         <module name="005-springboot-allboth-properties-yml" />
         <module name="035-springboot-character-1" />
-        <module name="040-springboot-thymeleaf-1" />
-        <module name="042-springboot-thymeleaf-expression" />
-        <module name="026-springboot-java-1" />
+        <module name="052-springboot-dubbo-ssm-interface" />
         <module name="037-springboot-war" />
-        <module name="046-springboot-thymeleaf-inline" />
         <module name="033-springboot-filter-1" />
         <module name="038-springboot-jar" />
-        <module name="017-springboot-springmvc" />
-        <module name="009-springboot-custom-configration" />
         <module name="010-springboot-jsp" />
         <module name="030-springboot-interceptor" />
-        <module name="016-springboot-transacation" />
         <module name="034-springboot-filter-2" />
-        <module name="043-springboot-thymeleaf" />
         <module name="018-springboot-restful" />
         <module name="021-springboot-dubbo-provider" />
-        <module name="025-springboot-ssm-consumer" />
-        <module name="027-springboot-java-2" />
         <module name="004-springboot-properties-yml-yaml" />
         <module name="023-springboot-ssm-interface" />
-        <module name="036-springboot-character-2" />
-        <module name="006-springboot-mulit-environment-properties" />
         <module name="039-springboot-logback" />
-        <module name="031-springboot-servlet-1" />
         <module name="050-springboot-thymeleaf-function" />
         <module name="041-springboot-thymeleaf-2" />
         <module name="048-springboot-thymeleaf-operation" />
-        <module name="014-springboot-mybatis-3" />
-        <module name="044-springboot-thymeleaf-list" />
         <module name="019-springboot-redis" />
-        <module name="012-springboot-mybatis" />
         <module name="007-springboot-multi-environment-yml" />
         <module name="049-springboot-thymeleaf" />
         <module name="024-springboot-ssm-provider" />
-        <module name="002-springboot-springmvc" />
         <module name="022-springboot-dubbo-consumer" />
-        <module name="028-springboot-close-logo" />
         <module name="001-springboot-first" />
         <module name="020-springboot-dubbo-interface" />
-        <module name="047-springboot-thymeleaf-literal" />
         <module name="045-springboot-thymeleaf-if" />
         <module name="013-springboot-mybatis-2" />
         <module name="032-springboot-servlet-2" />
+        <module name="053-springboot-dubbo-ssm-provider" />
         <module name="003-springboot-context-path" />
+        <module name="040-springboot-thymeleaf-1" />
+        <module name="042-springboot-thymeleaf-expression" />
+        <module name="026-springboot-java-1" />
+        <module name="046-springboot-thymeleaf-inline" />
+        <module name="017-springboot-springmvc" />
+        <module name="009-springboot-custom-configration" />
+        <module name="016-springboot-transacation" />
+        <module name="043-springboot-thymeleaf" />
+        <module name="025-springboot-ssm-consumer" />
+        <module name="027-springboot-java-2" />
+        <module name="036-springboot-character-2" />
+        <module name="006-springboot-mulit-environment-properties" />
+        <module name="031-springboot-servlet-1" />
+        <module name="014-springboot-mybatis-3" />
+        <module name="044-springboot-thymeleaf-list" />
+        <module name="012-springboot-mybatis" />
+        <module name="002-springboot-springmvc" />
+        <module name="028-springboot-close-logo" />
+        <module name="054-springboot-dubbo-ssm-consumer" />
+        <module name="047-springboot-thymeleaf-literal" />
         <module name="008-springboot-custom-configration" />
       </profile>
     </annotationProcessing>
@@ -106,7 +109,12 @@
       <module name="047-springboot-thymeleaf-literal" target="1.8" />
       <module name="048-springboot-thymeleaf-operation" target="1.8" />
       <module name="049-springboot-thymeleaf" target="1.8" />
+      <module name="050-springboot-parent" target="1.8" />
       <module name="050-springboot-thymeleaf-function" target="1.8" />
+      <module name="051-springboot-parent" target="1.8" />
+      <module name="052-springboot-dubbo-ssm-interface" target="1.8" />
+      <module name="053-springboot-dubbo-ssm-provider" target="1.8" />
+      <module name="054-springboot-dubbo-ssm-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -126,6 +134,9 @@
       <module name="023-springboot-ssm" options="-parameters" />
       <module name="024-springboot-ssm-provider" options="-parameters" />
       <module name="025-springboot-ssm-consumer" options="-parameters" />
+      <module name="052-springboot-dubbo-ssm-interface" options="-parameters" />
+      <module name="053-springboot-dubbo-ssm-provider" options="-parameters" />
+      <module name="054-springboot-dubbo-ssm-consumer" options="-parameters" />
     </option>
   </component>
 </project>
