@@ -82,7 +82,6 @@
       <module name="020-springboot-dubbo-interface" target="8" />
       <module name="021-springboot-dubbo-provider" target="1.8" />
       <module name="022-springboot-dubbo-consumer" target="1.8" />
-      <module name="023-springboot-ssm" target="1.8" />
       <module name="023-springboot-ssm-interface" target="8" />
       <module name="024-springboot-ssm-provider" target="1.8" />
       <module name="025-springboot-ssm-consumer" target="1.8" />
@@ -109,7 +108,6 @@
       <module name="047-springboot-thymeleaf-literal" target="1.8" />
       <module name="048-springboot-thymeleaf-operation" target="1.8" />
       <module name="049-springboot-thymeleaf" target="1.8" />
-      <module name="050-springboot-parent" target="1.8" />
       <module name="050-springboot-thymeleaf-function" target="1.8" />
       <module name="051-springboot-parent" target="1.8" />
       <module name="052-springboot-dubbo-ssm-interface" target="1.8" />
@@ -131,7 +129,6 @@
       <module name="010-springboot-jsp" options="-parameters" />
       <module name="012-springboot-mybatis" options="-parameters" />
       <module name="013-springboot-mybatis-2" options="-parameters" />
-      <module name="023-springboot-ssm" options="-parameters" />
       <module name="024-springboot-ssm-provider" options="-parameters" />
       <module name="025-springboot-ssm-consumer" options="-parameters" />
       <module name="052-springboot-dubbo-ssm-interface" options="-parameters" />

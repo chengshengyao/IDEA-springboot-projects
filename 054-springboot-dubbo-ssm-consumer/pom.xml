@@ -14,8 +14,30 @@
     <packaging>war</packaging>
     <name>054-springboot-dubbo-ssm-consumer</name>
     <description>Demo project for Spring Boot</description>
-
+    <!-- 服务消费者 需要 dubbo zookeeper thymeleaf 服务接口工程-->
     <dependencies>
+        <!--接口工程依赖项[dubbo的提供者需引入接口工程【实现类接口与实体数据类】依赖]-->
+        <dependency>
+            <groupId>com.bjpowernode.springboot</groupId>
+            <artifactId>052-springboot-dubbo-ssm-interface</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--dubbo-->
+        <dependency>
+            <groupId>com.alibaba.spring.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <!--注册中心客户端-->
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -23,6 +45,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
